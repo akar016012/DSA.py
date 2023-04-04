@@ -14,8 +14,8 @@ def funcOne():
 
 funcOne()
 
-
 # factorial
+
 
 def fact(num):
     if num == 1:
