@@ -1,9 +1,9 @@
 class Solution(object):
     def isValidSudoku(self, board):
         # declaring sets:
-        cols = collections.defaultdict(set)
-        rows = collections.defaultdict(set)
-        squares = collections.defaultdict(set)
+        cols = self.collections.defaultdict(set)
+        rows = self.collections.defaultdict(set)
+        squares = self.collections.defaultdict(set)
 
         for r in rows:
             for c in cols:
